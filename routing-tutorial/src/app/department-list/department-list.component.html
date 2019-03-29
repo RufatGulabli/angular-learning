@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="list-group">
+        <li
+          *ngFor="let deps of departments"
+          class="list-group-item list-group-item-action"
+          (click)="onClick(deps)"
+          [class.active]="selectedId == deps.id"
+        >
+          <span class="badge badge-info"> {{ deps.id }} </span
+          ><i class="m-1">{{ deps.name }}</i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

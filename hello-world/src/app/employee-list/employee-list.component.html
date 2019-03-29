@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="list-group">
+        <li *ngFor="let emp of employees" class="list-group-item">
+          {{ emp.name }}
+          <i class="badge badge-pill badge-danger">{{ emp.age }}</i>
+        </li>
+      </ul>
+      <div *ngIf="errorMessage" class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+    </div>
+  </div>
+</div>

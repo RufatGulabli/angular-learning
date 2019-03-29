@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Rufat Gulabli", "age": 32 },
+  { "id": 2, "name": "Murad Heydarov", "age": 31 },
+  { "id": 3, "name": "Vusal Rzayev", "age": 22 },
+  { "id": 4, "name": "Samir Mammadli", "age": 30 },
+  { "id": 5, "name": "Shaig Jafarov", "age": 25 },
+  { "id": 6, "name": "Shahin Nazarov", "age": 27 },
+  { "id": 7, "name": "Ramin Allahverdiyev", "age": 26 },
+  { "id": 8, "name": "Vugar Yusubov", "age": 20 },
+  { "id": 9, "name": "Anar Babayev", "age": 46 }
+]
